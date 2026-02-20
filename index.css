@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+header img{
+    height:40px;
+    width: 40px;
+}
+header ul .logo{
+    margin-left: 15px;
+}
+.logo:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #616161;
+    border-radius: 1rem;
+}
+  header ul button{
+    height: 30px;
+    width:80px;
+    border-radius: 4px;
+    border:1px;
+    margin: 1rem;
+    font-size: large ;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #616161;
+    border-radius: 1rem;
+}
+header ul .menu{
+  height: 30px;
+  margin:1rem
+}
+.menu:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #616161;
+    border-radius: 10px;
+}
+main ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+main ul  img{
+    height: 50px;
+    width:50px;
+    margin:1rem;
+    padding:5px;
+    border-radius: 40%;
+}
+.top:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #616161;
+}
+   main ul p{
+    font-size:medium;
+    margin-left: 1.3rem;
+   }
+   div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right:2.5rem;
+   }
+   div img{
+    height:60px;
+    width: 70px;
+   }
+   div input{
+   height: 3.5rem;
+   width:40rem;
+   border-radius: 10px;
+   outline: none;
+   border: 2px solid #FFC107;
+   font-size: large;
+   }
+   div .country{
+    font-size:small;
+   }
+.country{
+    justify-content: space-evenly;
+margin-left: 22rem;
+margin-right: 22rem;
+margin-top: 14rem;
+}
+   .country img{
+height: 20px;
+width: 20px;
+   }
+   footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    font-size: medium;
+    }
+   .bottom{
+    color:#90A4AE;
+   }
+   .bottom:hover{
+text-decoration:underline ;
+cursor: pointer;
+   }
+   
